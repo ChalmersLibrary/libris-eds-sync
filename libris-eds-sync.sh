@@ -47,9 +47,7 @@ else
   exit
 fi
 
-# Everything went ok removing transfered files
+# Everything went ok removing transfered file
 echo "Update finished"
-notify "$FILE överförd till EDS."
-rm $INFILE
+notify "$INFILE överförd till EDS."
 rm $OUTFILE
-
